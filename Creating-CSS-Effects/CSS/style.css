@@ -1,3 +1,8 @@
+/* GOOGLE FONT TYPOGRAPHY */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /*NAVBAR*/
 .nav-bar{
     position: sticky;
@@ -17,7 +22,7 @@ ul{
 
 a{
     display: block;
-    font-family: Calibri, sans-sarif;
+    font-family: 'Poppins', sans-serif;
     font-size: 23px;
     font-weight: 600;
     color: white;
@@ -77,7 +82,7 @@ footer{
 }
 
 .footer-text{
-    font-family: Calibri, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 23px;
     font-weight: 400;
     color: rgb(228, 159, 0);
@@ -87,6 +92,12 @@ footer{
 img{
     width: 700px;
     height: 550px;
+    transition: 0.5s ease;
+}
+
+img:hover {
+    border-radius: 100%;
+    transform: scale(1.05);
 }
 
 .image-container{
